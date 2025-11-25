@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ./src"
   },
   "dependencies": {
     "next": "16.0.3",
@@ -14,12 +15,18 @@
     "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "20",
+    "@types/react": "19",
+    "@types/react-dom": "19",
     "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
+    "eslint": "9",
     "eslint-config-next": "16.0.3",
-    "typescript": "^5"
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-prettier": "5.5.4",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "prettier": "3.6.2",
+    "sass": "1.94.2",
+    "typescript": "5"
   }
 }
