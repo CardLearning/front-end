@@ -8,16 +8,21 @@ on:
 
 permissions:
   contents: read
+  id-token: write
 
 concurrency:
   group: deploy-dev
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Build and deploy static site
+  build:
+    name: Build and publish artifact
     runs-on: ubuntu-latest
     environment: dev
+
+    outputs:
+      artifact-name: ${{ steps.meta.outputs.artifact_name }}
+      blob-name: ${{ steps.meta.outputs.blob_name }}
 
     steps:
       - name: Checkout
@@ -37,6 +42,104 @@ jobs:
 
       - name: Build static export
         run: npm run build:static
+
+      - name: Package static artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p artifacts
+          cd out
+          zip -r ../artifacts/static-site.zip .
+
+      - name: Set artifact metadata
+        id: meta
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "artifact_name=static-site-${GITHUB_SHA}" >> "$GITHUB_OUTPUT"
+          echo "blob_name=main/${GITHUB_SHA}/static-site.zip" >> "$GITHUB_OUTPUT"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.artifact_name }}
+          path: artifacts/static-site.zip
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Validate Azure deployment configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_vars=(
+            AZURE_CLIENT_ID
+            AZURE_TENANT_ID
+            AZURE_SUBSCRIPTION_ID
+            AZURE_STORAGE_ACCOUNT
+            AZURE_STORAGE_CONTAINER
+            AZURE_STATIC_WEB_APPS_API_TOKEN
+          )
+
+          for name in "${required_vars[@]}"; do
+            if [ -z "${!name:-}" ]; then
+              echo "Missing required GitHub environment secret or variable: $name"
+              exit 1
+            fi
+          done
+        env:
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT || vars.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_CONTAINER: ${{ secrets.AZURE_STORAGE_CONTAINER || vars.AZURE_STORAGE_CONTAINER }}
+          AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Upload artifact to Blob Storage
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          az storage blob upload \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --container-name "$AZURE_STORAGE_CONTAINER" \
+            --name "${{ steps.meta.outputs.blob_name }}" \
+            --file artifacts/static-site.zip \
+            --overwrite true \
+            --auth-mode login
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT || vars.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_CONTAINER: ${{ secrets.AZURE_STORAGE_CONTAINER || vars.AZURE_STORAGE_CONTAINER }}
+
+  deploy:
+    name: Deploy static site
+    runs-on: ubuntu-latest
+    environment: dev
+    needs: build
+
+    steps:
+      - name: Download workflow artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ needs.build.outputs.artifact-name }}
+          path: artifacts
+
+      - name: Extract static artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p out
+          unzip -q artifacts/static-site.zip -d out
 
       - name: Validate deployment secret
         shell: bash
