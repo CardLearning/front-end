@@ -1,0 +1,95 @@
+name: Rollback Dev
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: Commit SHA whose stored artifact should be redeployed
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: rollback-dev
+  cancel-in-progress: false
+
+jobs:
+  rollback:
+    name: Redeploy stored artifact
+    runs-on: ubuntu-latest
+    environment: dev
+
+    steps:
+      - name: Validate rollback configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_vars=(
+            AZURE_CLIENT_ID
+            AZURE_TENANT_ID
+            AZURE_SUBSCRIPTION_ID
+            AZURE_STORAGE_ACCOUNT
+            AZURE_STORAGE_CONTAINER
+            AZURE_STATIC_WEB_APPS_API_TOKEN
+          )
+
+          for name in "${required_vars[@]}"; do
+            if [ -z "${!name:-}" ]; then
+              echo "Missing required GitHub environment secret or variable: $name"
+              exit 1
+            fi
+          done
+        env:
+          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT || vars.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_CONTAINER: ${{ secrets.AZURE_STORAGE_CONTAINER || vars.AZURE_STORAGE_CONTAINER }}
+          AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Download artifact from Blob Storage
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          artifact_path="main/${{ inputs.commit_sha }}/static-site.zip"
+          mkdir -p artifacts
+
+          az storage blob download \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --container-name "$AZURE_STORAGE_CONTAINER" \
+            --name "$artifact_path" \
+            --file artifacts/static-site.zip \
+            --auth-mode login
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT || vars.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_CONTAINER: ${{ secrets.AZURE_STORAGE_CONTAINER || vars.AZURE_STORAGE_CONTAINER }}
+
+      - name: Extract stored artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p out
+          unzip -q artifacts/static-site.zip -d out
+
+      - name: Redeploy to Azure Static Web Apps
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: upload
+          app_location: out
+          output_location: ''
+          skip_app_build: true
