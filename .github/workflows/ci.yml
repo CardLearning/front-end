@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate:
-    name: Lint and export static site
+    name: Lint and package static site
     runs-on: ubuntu-latest
 
     steps:
@@ -33,10 +33,20 @@ jobs:
       - name: Build static export
         run: npm run build:static
 
+      - name: Package static artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p artifacts
+          cd out
+          zip -r ../artifacts/static-site.zip .
+
       - name: Upload static artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: static-site
-          path: out
+          path: artifacts/static-site.zip
           if-no-files-found: error
+          retention-days: 14
