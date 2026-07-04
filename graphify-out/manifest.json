@@ -1,0 +1,117 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1783193560.3108606,
+    "ast_hash": "84e53c7e3179c3f2a71b989c02b7e31a",
+    "semantic_hash": ""
+  },
+  "eslint.config.mjs": {
+    "mtime": 1783191593.4507835,
+    "ast_hash": "7ccbb7d91305d29ab5777f70734736ab",
+    "semantic_hash": ""
+  },
+  "next.config.ts": {
+    "mtime": 1783191593.4507835,
+    "ast_hash": "1faa2afee103e8daa8f3c0e9dcf8f143",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1783191593.4522865,
+    "ast_hash": "94f7789e8f4a2382d7d0f0eb53e9d95d",
+    "semantic_hash": ""
+  },
+  "src/app/layout.tsx": {
+    "mtime": 1783191593.4552836,
+    "ast_hash": "087c65ba7328eafe17b7c4b4ab571820",
+    "semantic_hash": ""
+  },
+  "src/app/page.tsx": {
+    "mtime": 1783191593.4562833,
+    "ast_hash": "93b89c74f791ed88a956d39ddf373be0",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1783191593.4562833,
+    "ast_hash": "0a2f4ed9289b65cd3feb4fb4ab3a4fcd",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1783191593.4477835,
+    "ast_hash": "31bde00469dd86872aa5c4958de411b6",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy-dev.yml": {
+    "mtime": 1783191593.4482849,
+    "ast_hash": "63e4a8233dae0407a66d1d98cc684cc7",
+    "semantic_hash": ""
+  },
+  ".github/workflows/rollback-dev.yml": {
+    "mtime": 1783191593.4482849,
+    "ast_hash": "1b879a589aa0f36bf437ba2f3cda356a",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1783194126.1930177,
+    "ast_hash": "e1f106f78aa1d65fb41a8f167f5a0fd6",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1783191593.4502835,
+    "ast_hash": "9162add00befbcdb432430f405c4ad8d",
+    "semantic_hash": ""
+  },
+  "docs/PROJECT_OVERVIEW.md": {
+    "mtime": 1783194831.8422742,
+    "ast_hash": "cb25bd2db0fd791040e08a92d0ae3ca5",
+    "semantic_hash": ""
+  },
+  "docs/architecture/api-contracts.md": {
+    "mtime": 1783194831.8412738,
+    "ast_hash": "a78b7fbc99d82804638b55806933d442",
+    "semantic_hash": ""
+  },
+  "docs/architecture/frontend.md": {
+    "mtime": 1783194831.8402727,
+    "ast_hash": "6035cbc1f067b8b20310f4b41954b942",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md": {
+    "mtime": 1783194831.8432715,
+    "ast_hash": "bef0f5242264ecba72231479fcf2658d",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-07-04-graphify-exclusions.md": {
+    "mtime": 1783194108.9367132,
+    "ast_hash": "942f49bb40601fc5016a1048baa70b49",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md": {
+    "mtime": 1783193510.9968076,
+    "ast_hash": "2530f02805e0676ae225e22b1abfa434",
+    "semantic_hash": ""
+  },
+  "public/file.svg": {
+    "mtime": 1783191593.4527829,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "public/globe.svg": {
+    "mtime": 1783191593.4532828,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "public/next.svg": {
+    "mtime": 1783191593.4537835,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "public/vercel.svg": {
+    "mtime": 1783191593.4537835,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "public/window.svg": {
+    "mtime": 1783191593.4542837,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  }
+}

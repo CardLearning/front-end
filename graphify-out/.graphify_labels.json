@@ -1,0 +1,19 @@
+{
+  "0": "compilerOptions",
+  "1": "Card Learning: обзор проекта",
+  "2": "scripts",
+  "3": "devDependencies",
+  "4": "Graphify Knowledge Base Implementation Plan",
+  "5": "Дополнительный функционал после MVP",
+  "6": "Agent Rules",
+  "7": "Graphify Exclusions Implementation Plan",
+  "8": "Frontend Architecture",
+  "9": "Базовый функционал MVP",
+  "10": "Frontend FFD Documentation Implementation Plan",
+  "11": "API Contracts",
+  "12": "README.md",
+  "13": "layout.tsx",
+  "14": "eslint.config.mjs",
+  "15": "next.config.ts",
+  "16": "page.tsx"
+}
