@@ -1,0 +1,2651 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "eslint_config",
+      "community": 16,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "eslint_config_eslintconfig",
+      "community": 16,
+      "norm_label": "eslintconfig"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "next_config",
+      "community": 17,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "next_config_nextconfig",
+      "community": 17,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 2,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 2,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 2,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 2,
+      "norm_label": "private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 2,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 2,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 2,
+      "norm_label": "build"
+    },
+    {
+      "label": "build:static",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_build_static",
+      "community": 2,
+      "norm_label": "build:static"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 2,
+      "norm_label": "start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "package_scripts_lint",
+      "community": 2,
+      "norm_label": "lint"
+    },
+    {
+      "label": "format",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_scripts_format",
+      "community": 2,
+      "norm_label": "format"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 2,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_dependencies_next",
+      "community": 2,
+      "norm_label": "next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_dependencies_react",
+      "community": 2,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_dependencies_react_dom",
+      "community": 2,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 3,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_node",
+      "community": 3,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react",
+      "community": 3,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_react_dom",
+      "community": 3,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "babel-plugin-react-compiler",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_devdependencies_babel_plugin_react_compiler",
+      "community": 3,
+      "norm_label": "babel-plugin-react-compiler"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint",
+      "community": 3,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_config_next",
+      "community": 3,
+      "norm_label": "eslint-config-next"
+    },
+    {
+      "label": "eslint-config-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_config_prettier",
+      "community": 3,
+      "norm_label": "eslint-config-prettier"
+    },
+    {
+      "label": "eslint-plugin-import",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_import",
+      "community": 3,
+      "norm_label": "eslint-plugin-import"
+    },
+    {
+      "label": "eslint-plugin-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_prettier",
+      "community": 3,
+      "norm_label": "eslint-plugin-prettier"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_react_hooks",
+      "community": 3,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "package_devdependencies_prettier",
+      "community": 3,
+      "norm_label": "prettier"
+    },
+    {
+      "label": "sass",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "package_devdependencies_sass",
+      "community": 3,
+      "norm_label": "sass"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "package_devdependencies_typescript",
+      "community": 3,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_layout",
+      "community": 15,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_app_layout_metadata",
+      "community": 15,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_app_layout_rootlayout",
+      "community": 15,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_page",
+      "community": 18,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_app_page_home",
+      "community": 18,
+      "norm_label": "home()"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tsconfig",
+      "community": 0,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions",
+      "community": 0,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_target",
+      "community": 0,
+      "norm_label": "target"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_lib",
+      "community": 0,
+      "norm_label": "lib"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_allowjs",
+      "community": 0,
+      "norm_label": "allowjs"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "community": 0,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_strict",
+      "community": 0,
+      "norm_label": "strict"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noemit",
+      "community": 0,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_esmoduleinterop",
+      "community": 0,
+      "norm_label": "esmoduleinterop"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_module",
+      "community": 0,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_moduleresolution",
+      "community": 0,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_resolvejsonmodule",
+      "community": 0,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_isolatedmodules",
+      "community": 0,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_jsx",
+      "community": 0,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_incremental",
+      "community": 0,
+      "norm_label": "incremental"
+    },
+    {
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_plugins",
+      "community": 0,
+      "norm_label": "plugins"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_paths",
+      "community": 0,
+      "norm_label": "paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "tsconfig_paths",
+      "community": 0,
+      "norm_label": "@/*"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "tsconfig_include",
+      "community": 0,
+      "norm_label": "include"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "tsconfig_exclude",
+      "community": 0,
+      "norm_label": "exclude"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 5,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "Agent Rules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_agent_rules",
+      "community": 5,
+      "norm_label": "agent rules"
+    },
+    {
+      "label": "Superpowers",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "agents_superpowers",
+      "community": 5,
+      "norm_label": "superpowers"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "agents_testing",
+      "community": 5,
+      "norm_label": "testing"
+    },
+    {
+      "label": "Frontend: FSD And Sass Modules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "agents_frontend_fsd_and_sass_modules",
+      "community": 5,
+      "norm_label": "frontend: fsd and sass modules"
+    },
+    {
+      "label": "Documentation Sources",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "agents_documentation_sources",
+      "community": 5,
+      "norm_label": "documentation sources"
+    },
+    {
+      "label": "Priority",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "agents_priority",
+      "community": 5,
+      "norm_label": "priority"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "agents_graphify",
+      "community": 5,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 14,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "readme_getting_started",
+      "community": 14,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Learn More",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "readme_learn_more",
+      "community": 14,
+      "norm_label": "learn more"
+    },
+    {
+      "label": "Deploy on Vercel",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "readme_deploy_on_vercel",
+      "community": 14,
+      "norm_label": "deploy on vercel"
+    },
+    {
+      "label": "PROJECT_OVERVIEW.md",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_project_overview",
+      "community": 1,
+      "norm_label": "project_overview.md"
+    },
+    {
+      "label": "Card Learning: \u043e\u0431\u0437\u043e\u0440 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "community": 1,
+      "norm_label": "card learning: \u043e\u0431\u0437\u043e\u0440 \u043f\u0440\u043e\u0435\u043a\u0442\u0430"
+    },
+    {
+      "label": "\u041a\u0440\u0430\u0442\u043a\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043a\u0440\u0430\u0442\u043a\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "community": 1,
+      "norm_label": "\u043a\u0440\u0430\u0442\u043a\u043e\u0435 \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435"
+    },
+    {
+      "label": "\u0426\u0435\u043b\u044c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0446\u0435\u043b\u044c_\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "community": 1,
+      "norm_label": "\u0446\u0435\u043b\u044c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430"
+    },
+    {
+      "label": "\u0414\u043b\u044f \u043a\u043e\u0433\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0434\u043b\u044f_\u043a\u043e\u0433\u043e_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "community": 1,
+      "norm_label": "\u0434\u043b\u044f \u043a\u043e\u0433\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
+    },
+    {
+      "label": "Frontend-\u0441\u0442\u0435\u043a",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_project_overview_frontend_\u0441\u0442\u0435\u043a",
+      "community": 1,
+      "norm_label": "frontend-\u0441\u0442\u0435\u043a"
+    },
+    {
+      "label": "\u041c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 frontend",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f_\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438_frontend",
+      "community": 1,
+      "norm_label": "\u043c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 frontend"
+    },
+    {
+      "label": "\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b MVP",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "community": 11,
+      "norm_label": "\u0431\u0430\u0437\u043e\u0432\u044b\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b mvp"
+    },
+    {
+      "label": "\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435_\u043f\u043e_\u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c",
+      "community": 11,
+      "norm_label": "\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c"
+    },
+    {
+      "label": "\u0420\u0443\u0447\u043d\u043e\u0435 \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0440\u0443\u0447\u043d\u043e\u0435_\u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435",
+      "community": 11,
+      "norm_label": "\u0440\u0443\u0447\u043d\u043e\u0435 \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435"
+    },
+    {
+      "label": "\u041d\u0430\u0431\u043e\u0440\u044b \u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043d\u0430\u0431\u043e\u0440\u044b_\u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a",
+      "community": 11,
+      "norm_label": "\u043d\u0430\u0431\u043e\u0440\u044b \u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a"
+    },
+    {
+      "label": "\u0428\u0430\u0440\u0438\u043d\u0433 \u043d\u0430\u0431\u043e\u0440\u043e\u0432",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0448\u0430\u0440\u0438\u043d\u0433_\u043d\u0430\u0431\u043e\u0440\u043e\u0432",
+      "community": 11,
+      "norm_label": "\u0448\u0430\u0440\u0438\u043d\u0433 \u043d\u0430\u0431\u043e\u0440\u043e\u0432"
+    },
+    {
+      "label": "\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "community": 1,
+      "norm_label": "\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438"
+    },
+    {
+      "label": "\u0421\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043d\u0430\u0431\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435_\u043d\u0430\u0431\u043e\u0440\u0430",
+      "community": 1,
+      "norm_label": "\u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043d\u0430\u0431\u043e\u0440\u0430"
+    },
+    {
+      "label": "\u041e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0439 \u043f\u043e\u0434\u0445\u043e\u0434",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0439_\u043f\u043e\u0434\u0445\u043e\u0434",
+      "community": 1,
+      "norm_label": "\u043e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0438 \u043f\u043e\u0434\u0445\u043e\u0434"
+    },
+    {
+      "label": "\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435_\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430",
+      "community": 1,
+      "norm_label": "\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430"
+    },
+    {
+      "label": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0447\u0443\u0436\u043e\u0433\u043e \u043d\u0430\u0431\u043e\u0440\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435_\u0447\u0443\u0436\u043e\u0433\u043e_\u043d\u0430\u0431\u043e\u0440\u0430",
+      "community": 1,
+      "norm_label": "\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0447\u0443\u0436\u043e\u0433\u043e \u043d\u0430\u0431\u043e\u0440\u0430"
+    },
+    {
+      "label": "\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b \u043f\u043e\u0441\u043b\u0435 MVP",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "community": 7,
+      "norm_label": "\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b \u043f\u043e\u0441\u043b\u0435 mvp"
+    },
+    {
+      "label": "\u0410\u0443\u0434\u0438\u043e \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0430\u0443\u0434\u0438\u043e_\u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "community": 7,
+      "norm_label": "\u0430\u0443\u0434\u0438\u043e \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+    },
+    {
+      "label": "\u0410\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "community": 7,
+      "norm_label": "\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f"
+    },
+    {
+      "label": "\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "community": 7,
+      "norm_label": "\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f"
+    },
+    {
+      "label": "\u0410\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "community": 7,
+      "norm_label": "\u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f"
+    },
+    {
+      "label": "\u0410\u0447\u0438\u0432\u043a\u0438 \u0438 \u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L194",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0430\u0447\u0438\u0432\u043a\u0438_\u0438_\u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f",
+      "community": 7,
+      "norm_label": "\u0430\u0447\u0438\u0432\u043a\u0438 \u0438 \u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f"
+    },
+    {
+      "label": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L206",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "community": 7,
+      "norm_label": "\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
+    },
+    {
+      "label": "\u041f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b_\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "community": 1,
+      "norm_label": "\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430"
+    },
+    {
+      "label": "\u0427\u0442\u043e \u043d\u0435 \u0432\u0445\u043e\u0434\u0438\u0442 \u0432 MVP",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L227",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u0447\u0442\u043e_\u043d\u0435_\u0432\u0445\u043e\u0434\u0438\u0442_\u0432_mvp",
+      "community": 1,
+      "norm_label": "\u0447\u0442\u043e \u043d\u0435 \u0432\u0445\u043e\u0434\u0438\u0442 \u0432 mvp"
+    },
+    {
+      "label": "\u041e\u0442\u043a\u0440\u044b\u0442\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "file_type": "document",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L240",
+      "_origin": "ast",
+      "id": "docs_project_overview_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "community": 1,
+      "norm_label": "\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b"
+    },
+    {
+      "label": "api-contracts.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_api_contracts",
+      "community": 13,
+      "norm_label": "api-contracts.md"
+    },
+    {
+      "label": "API Contracts",
+      "file_type": "document",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_api_contracts_api_contracts",
+      "community": 13,
+      "norm_label": "api contracts"
+    },
+    {
+      "label": "Contract Workflow",
+      "file_type": "document",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_architecture_api_contracts_contract_workflow",
+      "community": 13,
+      "norm_label": "contract workflow"
+    },
+    {
+      "label": "Contract Requirements",
+      "file_type": "document",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_architecture_api_contracts_contract_requirements",
+      "community": 13,
+      "norm_label": "contract requirements"
+    },
+    {
+      "label": "frontend.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend",
+      "community": 6,
+      "norm_label": "frontend.md"
+    },
+    {
+      "label": "Frontend Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_frontend_architecture",
+      "community": 6,
+      "norm_label": "frontend architecture"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_stack",
+      "community": 6,
+      "norm_label": "stack"
+    },
+    {
+      "label": "FSD Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_fsd_architecture",
+      "community": 6,
+      "norm_label": "fsd architecture"
+    },
+    {
+      "label": "Development Methodology",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_development_methodology",
+      "community": 6,
+      "norm_label": "development methodology"
+    },
+    {
+      "label": "Practical Rules",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_practical_rules",
+      "community": 6,
+      "norm_label": "practical rules"
+    },
+    {
+      "label": "Sass Modules: styles.module.scss",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_sass_modules_styles_module_scss",
+      "community": 6,
+      "norm_label": "sass modules: styles.module.scss"
+    },
+    {
+      "label": "2026-07-04-context7-documentation-rule.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule",
+      "community": 8,
+      "norm_label": "2026-07-04-context7-documentation-rule.md"
+    },
+    {
+      "label": "Context7 Documentation Rule Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "community": 8,
+      "norm_label": "context7 documentation rule implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_file_structure",
+      "community": 8,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Add Project-Wide Context7 Rule",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_1_add_project_wide_context7_rule",
+      "community": 8,
+      "norm_label": "task 1: add project-wide context7 rule"
+    },
+    {
+      "label": "Task 2: Add Frontend Context7 Rule",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_2_add_frontend_context7_rule",
+      "community": 8,
+      "norm_label": "task 2: add frontend context7 rule"
+    },
+    {
+      "label": "Task 3: Refresh Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_3_refresh_knowledge_graph",
+      "community": 8,
+      "norm_label": "task 3: refresh knowledge graph"
+    },
+    {
+      "label": "2026-07-04-frontend-ffd-documentation.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation",
+      "community": 12,
+      "norm_label": "2026-07-04-frontend-ffd-documentation.md"
+    },
+    {
+      "label": "Frontend FFD Documentation Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
+      "community": 12,
+      "norm_label": "frontend ffd documentation implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_file_structure",
+      "community": 12,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Update Project Overview",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_1_update_project_overview",
+      "community": 12,
+      "norm_label": "task 1: update project overview"
+    },
+    {
+      "label": "Task 2: Refresh Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_2_refresh_knowledge_graph",
+      "community": 12,
+      "norm_label": "task 2: refresh knowledge graph"
+    },
+    {
+      "label": "2026-07-04-frontend-fsd-styling-rules.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules",
+      "community": 9,
+      "norm_label": "2026-07-04-frontend-fsd-styling-rules.md"
+    },
+    {
+      "label": "Frontend FSD Styling Rules Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "community": 9,
+      "norm_label": "frontend fsd styling rules implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_file_structure",
+      "community": 9,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Update Frontend Documentation With FSD And styles.module.scss",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_1_update_frontend_documentation_with_fsd_and_styles_module_scss",
+      "community": 9,
+      "norm_label": "task 1: update frontend documentation with fsd and styles.module.scss"
+    },
+    {
+      "label": "Task 2: Update Agent Rules With FSD And Sass Modules",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_2_update_agent_rules_with_fsd_and_sass_modules",
+      "community": 9,
+      "norm_label": "task 2: update agent rules with fsd and sass modules"
+    },
+    {
+      "label": "Task 3: Refresh Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_3_refresh_knowledge_graph",
+      "community": 9,
+      "norm_label": "task 3: refresh knowledge graph"
+    },
+    {
+      "label": "2026-07-04-graphify-exclusions.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions",
+      "community": 10,
+      "norm_label": "2026-07-04-graphify-exclusions.md"
+    },
+    {
+      "label": "Graphify Exclusions Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "community": 10,
+      "norm_label": "graphify exclusions implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_file_structure",
+      "community": 10,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Add Graphify Ignore File",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_1_add_graphify_ignore_file",
+      "community": 10,
+      "norm_label": "task 1: add graphify ignore file"
+    },
+    {
+      "label": "Task 2: Document The Rule",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_2_document_the_rule",
+      "community": 10,
+      "norm_label": "task 2: document the rule"
+    },
+    {
+      "label": "Task 3: Rebuild And Verify Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_3_rebuild_and_verify_graph",
+      "community": 10,
+      "norm_label": "task 3: rebuild and verify graph"
+    },
+    {
+      "label": "2026-07-04-graphify-knowledge-base.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base",
+      "community": 4,
+      "norm_label": "2026-07-04-graphify-knowledge-base.md"
+    },
+    {
+      "label": "Graphify Knowledge Base Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "community": 4,
+      "norm_label": "graphify knowledge base implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_file_structure",
+      "community": 4,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Verify Graphify CLI",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_1_verify_graphify_cli",
+      "community": 4,
+      "norm_label": "task 1: verify graphify cli"
+    },
+    {
+      "label": "Task 2: Register Graphify For Codex",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_2_register_graphify_for_codex",
+      "community": 4,
+      "norm_label": "task 2: register graphify for codex"
+    },
+    {
+      "label": "Task 3: Add Project-Specific Planning Rules",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_3_add_project_specific_planning_rules",
+      "community": 4,
+      "norm_label": "task 3: add project-specific planning rules"
+    },
+    {
+      "label": "Task 4: Build The Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_4_build_the_knowledge_graph",
+      "community": 4,
+      "norm_label": "task 4: build the knowledge graph"
+    },
+    {
+      "label": "Task 5: Verify Graph Coverage",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_5_verify_graph_coverage",
+      "community": 4,
+      "norm_label": "task 5: verify graph coverage"
+    },
+    {
+      "label": "Task 6: Final Status Check",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_6_final_status_check",
+      "community": 4,
+      "norm_label": "task 6: final status check"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "eslint_config_eslintconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "next_config",
+      "target": "next_config_nextconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build_static",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_babel_plugin_react_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_config_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_config_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_import",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_sass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_layout",
+      "target": "src_app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app_layout",
+      "target": "src_app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_page",
+      "target": "src_app_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_exclude",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_allowjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_esmoduleinterop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_incremental",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_resolvejsonmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions_paths",
+      "target": "tsconfig_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents",
+      "target": "agents_agent_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_documentation_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_frontend_fsd_and_sass_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_priority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_superpowers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_deploy_on_vercel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_learn_more",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_project_overview",
+      "target": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_frontend_\u0441\u0442\u0435\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0434\u043b\u044f_\u043a\u043e\u0433\u043e_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043a\u0440\u0430\u0442\u043a\u043e\u0435_\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043c\u0435\u0442\u043e\u0434\u043e\u043b\u043e\u0433\u0438\u044f_\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438_frontend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043e\u0442\u043a\u0440\u044b\u0442\u044b\u0435_\u0432\u043e\u043f\u0440\u043e\u0441\u044b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b_\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0446\u0435\u043b\u044c_\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "docs_project_overview_card_learning_\u043e\u0431\u0437\u043e\u0440_\u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+      "target": "docs_project_overview_\u0447\u0442\u043e_\u043d\u0435_\u0432\u0445\u043e\u0434\u0438\u0442_\u0432_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "target": "docs_project_overview_\u043d\u0430\u0431\u043e\u0440\u044b_\u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "target": "docs_project_overview_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435_\u043f\u043e_\u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "target": "docs_project_overview_\u0440\u0443\u0447\u043d\u043e\u0435_\u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
+      "target": "docs_project_overview_\u0448\u0430\u0440\u0438\u043d\u0433_\u043d\u0430\u0431\u043e\u0440\u043e\u0432",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "target": "docs_project_overview_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435_\u0447\u0443\u0436\u043e\u0433\u043e_\u043d\u0430\u0431\u043e\u0440\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "target": "docs_project_overview_\u043e\u0431\u0443\u0447\u0430\u044e\u0449\u0438\u0439_\u043f\u043e\u0434\u0445\u043e\u0434",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "target": "docs_project_overview_\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435_\u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0435_\u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0438",
+      "target": "docs_project_overview_\u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435_\u043d\u0430\u0431\u043e\u0440\u0430",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u0430\u0443\u0434\u0438\u043e_\u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u0430\u0447\u0438\u0432\u043a\u0438_\u0438_\u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PROJECT_OVERVIEW.md",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
+      "target": "docs_project_overview_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_api_contracts",
+      "target": "docs_architecture_api_contracts_api_contracts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_architecture_api_contracts_api_contracts",
+      "target": "docs_architecture_api_contracts_contract_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/api-contracts.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_architecture_api_contracts_api_contracts",
+      "target": "docs_architecture_api_contracts_contract_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend",
+      "target": "docs_architecture_frontend_frontend_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_development_methodology",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_fsd_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_practical_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_sass_modules_styles_module_scss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_1_add_project_wide_context7_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_2_add_frontend_context7_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_3_refresh_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_1_update_project_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-ffd-documentation.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_2_refresh_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_1_update_frontend_documentation_with_fsd_and_styles_module_scss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_2_update_agent_rules_with_fsd_and_sass_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_3_refresh_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_exclusions",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_exclusions_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_1_add_graphify_ignore_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_2_document_the_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-exclusions.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_3_rebuild_and_verify_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_1_verify_graphify_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_2_register_graphify_for_codex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_3_add_project_specific_planning_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_4_build_the_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_5_verify_graph_coverage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-graphify-knowledge-base.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_graphify_knowledge_base_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_graphify_knowledge_base_task_6_final_status_check",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "12bf46a5cf041722fe3620432636dd5426b33ef0"
+}
