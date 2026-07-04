@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "eslint_config",
-      "community": 14,
+      "community": 16,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "eslint_config_eslintconfig",
-      "community": 14,
+      "community": 16,
       "norm_label": "eslintconfig"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "next_config",
-      "community": 15,
+      "community": 17,
       "norm_label": "next.config.ts"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "next_config_nextconfig",
-      "community": 15,
+      "community": 17,
       "norm_label": "nextconfig"
     },
     {
@@ -340,7 +340,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_layout",
-      "community": 13,
+      "community": 15,
       "norm_label": "layout.tsx"
     },
     {
@@ -350,7 +350,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_app_layout_metadata",
-      "community": 13,
+      "community": 15,
       "norm_label": "metadata"
     },
     {
@@ -360,7 +360,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_app_layout_rootlayout",
-      "community": 13,
+      "community": 15,
       "norm_label": "rootlayout()"
     },
     {
@@ -370,7 +370,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_app_page",
-      "community": 16,
+      "community": 18,
       "norm_label": "page.tsx"
     },
     {
@@ -380,7 +380,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_app_page_home",
-      "community": 16,
+      "community": 18,
       "norm_label": "home()"
     },
     {
@@ -590,7 +590,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents",
-      "community": 6,
+      "community": 5,
       "norm_label": "agents.md"
     },
     {
@@ -600,7 +600,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_agent_rules",
-      "community": 6,
+      "community": 5,
       "norm_label": "agent rules"
     },
     {
@@ -610,7 +610,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "agents_superpowers",
-      "community": 6,
+      "community": 5,
       "norm_label": "superpowers"
     },
     {
@@ -620,27 +620,47 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "agents_testing",
-      "community": 6,
+      "community": 5,
       "norm_label": "testing"
+    },
+    {
+      "label": "Frontend: FSD And Sass Modules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "agents_frontend_fsd_and_sass_modules",
+      "community": 5,
+      "norm_label": "frontend: fsd and sass modules"
+    },
+    {
+      "label": "Documentation Sources",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "agents_documentation_sources",
+      "community": 5,
+      "norm_label": "documentation sources"
     },
     {
       "label": "Priority",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L19",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "agents_priority",
-      "community": 6,
+      "community": 5,
       "norm_label": "priority"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "source_location": "L24",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "agents_graphify",
-      "community": 6,
+      "community": 5,
       "norm_label": "graphify"
     },
     {
@@ -650,7 +670,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 12,
+      "community": 14,
       "norm_label": "readme.md"
     },
     {
@@ -660,7 +680,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "readme_getting_started",
-      "community": 12,
+      "community": 14,
       "norm_label": "getting started"
     },
     {
@@ -670,7 +690,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "readme_learn_more",
-      "community": 12,
+      "community": 14,
       "norm_label": "learn more"
     },
     {
@@ -680,7 +700,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "readme_deploy_on_vercel",
-      "community": 12,
+      "community": 14,
       "norm_label": "deploy on vercel"
     },
     {
@@ -760,7 +780,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "docs_project_overview_\u0431\u0430\u0437\u043e\u0432\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_mvp",
-      "community": 9,
+      "community": 11,
       "norm_label": "\u0431\u0430\u0437\u043e\u0432\u044b\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b mvp"
     },
     {
@@ -770,7 +790,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "docs_project_overview_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435_\u043f\u043e_\u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c",
-      "community": 9,
+      "community": 11,
       "norm_label": "\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u043e \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0430\u043c"
     },
     {
@@ -780,7 +800,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "docs_project_overview_\u0440\u0443\u0447\u043d\u043e\u0435_\u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435_\u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435",
-      "community": 9,
+      "community": 11,
       "norm_label": "\u0440\u0443\u0447\u043d\u043e\u0435 \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u0438\u0435"
     },
     {
@@ -790,7 +810,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "docs_project_overview_\u043d\u0430\u0431\u043e\u0440\u044b_\u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a",
-      "community": 9,
+      "community": 11,
       "norm_label": "\u043d\u0430\u0431\u043e\u0440\u044b \u043a\u0430\u0440\u0442\u043e\u0447\u0435\u043a"
     },
     {
@@ -800,7 +820,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "docs_project_overview_\u0448\u0430\u0440\u0438\u043d\u0433_\u043d\u0430\u0431\u043e\u0440\u043e\u0432",
-      "community": 9,
+      "community": 11,
       "norm_label": "\u0448\u0430\u0440\u0438\u043d\u0433 \u043d\u0430\u0431\u043e\u0440\u043e\u0432"
     },
     {
@@ -860,7 +880,7 @@
       "source_location": "L147",
       "_origin": "ast",
       "id": "docs_project_overview_\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439_\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b_\u043f\u043e\u0441\u043b\u0435_mvp",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b \u043f\u043e\u0441\u043b\u0435 mvp"
     },
     {
@@ -870,7 +890,7 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "docs_project_overview_\u0430\u0443\u0434\u0438\u043e_\u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0430\u0443\u0434\u0438\u043e \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
     },
     {
@@ -880,7 +900,7 @@
       "source_location": "L162",
       "_origin": "ast",
       "id": "docs_project_overview_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f"
     },
     {
@@ -890,7 +910,7 @@
       "source_location": "L173",
       "_origin": "ast",
       "id": "docs_project_overview_\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f"
     },
     {
@@ -900,7 +920,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "docs_project_overview_\u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435_\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b_\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0435 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f"
     },
     {
@@ -910,7 +930,7 @@
       "source_location": "L194",
       "_origin": "ast",
       "id": "docs_project_overview_\u0430\u0447\u0438\u0432\u043a\u0438_\u0438_\u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u0430\u0447\u0438\u0432\u043a\u0438 \u0438 \u043c\u043e\u0442\u0438\u0432\u0430\u0446\u0438\u044f"
     },
     {
@@ -920,7 +940,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "docs_project_overview_\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
-      "community": 5,
+      "community": 7,
       "norm_label": "\u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
     },
     {
@@ -960,7 +980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_architecture_api_contracts",
-      "community": 11,
+      "community": 13,
       "norm_label": "api-contracts.md"
     },
     {
@@ -970,7 +990,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_architecture_api_contracts_api_contracts",
-      "community": 11,
+      "community": 13,
       "norm_label": "api contracts"
     },
     {
@@ -980,7 +1000,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "docs_architecture_api_contracts_contract_workflow",
-      "community": 11,
+      "community": 13,
       "norm_label": "contract workflow"
     },
     {
@@ -990,7 +1010,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "docs_architecture_api_contracts_contract_requirements",
-      "community": 11,
+      "community": 13,
       "norm_label": "contract requirements"
     },
     {
@@ -1000,7 +1020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_architecture_frontend",
-      "community": 8,
+      "community": 6,
       "norm_label": "frontend.md"
     },
     {
@@ -1010,7 +1030,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_architecture_frontend_frontend_architecture",
-      "community": 8,
+      "community": 6,
       "norm_label": "frontend architecture"
     },
     {
@@ -1020,28 +1040,108 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "docs_architecture_frontend_stack",
-      "community": 8,
+      "community": 6,
       "norm_label": "stack"
+    },
+    {
+      "label": "FSD Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_fsd_architecture",
+      "community": 6,
+      "norm_label": "fsd architecture"
     },
     {
       "label": "Development Methodology",
       "file_type": "document",
       "source_file": "docs/architecture/frontend.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "docs_architecture_frontend_development_methodology",
-      "community": 8,
+      "community": 6,
       "norm_label": "development methodology"
     },
     {
       "label": "Practical Rules",
       "file_type": "document",
       "source_file": "docs/architecture/frontend.md",
-      "source_location": "L25",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "docs_architecture_frontend_practical_rules",
-      "community": 8,
+      "community": 6,
       "norm_label": "practical rules"
+    },
+    {
+      "label": "Sass Modules: styles.module.scss",
+      "file_type": "document",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_architecture_frontend_sass_modules_styles_module_scss",
+      "community": 6,
+      "norm_label": "sass modules: styles.module.scss"
+    },
+    {
+      "label": "2026-07-04-context7-documentation-rule.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule",
+      "community": 8,
+      "norm_label": "2026-07-04-context7-documentation-rule.md"
+    },
+    {
+      "label": "Context7 Documentation Rule Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "community": 8,
+      "norm_label": "context7 documentation rule implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_file_structure",
+      "community": 8,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Add Project-Wide Context7 Rule",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_1_add_project_wide_context7_rule",
+      "community": 8,
+      "norm_label": "task 1: add project-wide context7 rule"
+    },
+    {
+      "label": "Task 2: Add Frontend Context7 Rule",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_2_add_frontend_context7_rule",
+      "community": 8,
+      "norm_label": "task 2: add frontend context7 rule"
+    },
+    {
+      "label": "Task 3: Refresh Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_3_refresh_knowledge_graph",
+      "community": 8,
+      "norm_label": "task 3: refresh knowledge graph"
     },
     {
       "label": "2026-07-04-frontend-ffd-documentation.md",
@@ -1050,7 +1150,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation",
-      "community": 10,
+      "community": 12,
       "norm_label": "2026-07-04-frontend-ffd-documentation.md"
     },
     {
@@ -1060,7 +1160,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
-      "community": 10,
+      "community": 12,
       "norm_label": "frontend ffd documentation implementation plan"
     },
     {
@@ -1070,7 +1170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_file_structure",
-      "community": 10,
+      "community": 12,
       "norm_label": "file structure"
     },
     {
@@ -1080,7 +1180,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_1_update_project_overview",
-      "community": 10,
+      "community": 12,
       "norm_label": "task 1: update project overview"
     },
     {
@@ -1090,8 +1190,68 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_2_refresh_knowledge_graph",
-      "community": 10,
+      "community": 12,
       "norm_label": "task 2: refresh knowledge graph"
+    },
+    {
+      "label": "2026-07-04-frontend-fsd-styling-rules.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules",
+      "community": 9,
+      "norm_label": "2026-07-04-frontend-fsd-styling-rules.md"
+    },
+    {
+      "label": "Frontend FSD Styling Rules Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "community": 9,
+      "norm_label": "frontend fsd styling rules implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_file_structure",
+      "community": 9,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Update Frontend Documentation With FSD And styles.module.scss",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_1_update_frontend_documentation_with_fsd_and_styles_module_scss",
+      "community": 9,
+      "norm_label": "task 1: update frontend documentation with fsd and styles.module.scss"
+    },
+    {
+      "label": "Task 2: Update Agent Rules With FSD And Sass Modules",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_2_update_agent_rules_with_fsd_and_sass_modules",
+      "community": 9,
+      "norm_label": "task 2: update agent rules with fsd and sass modules"
+    },
+    {
+      "label": "Task 3: Refresh Knowledge Graph",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_3_refresh_knowledge_graph",
+      "community": 9,
+      "norm_label": "task 3: refresh knowledge graph"
     },
     {
       "label": "2026-07-04-graphify-exclusions.md",
@@ -1100,7 +1260,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions",
-      "community": 7,
+      "community": 10,
       "norm_label": "2026-07-04-graphify-exclusions.md"
     },
     {
@@ -1110,7 +1270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_graphify_exclusions_implementation_plan",
-      "community": 7,
+      "community": 10,
       "norm_label": "graphify exclusions implementation plan"
     },
     {
@@ -1120,7 +1280,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_file_structure",
-      "community": 7,
+      "community": 10,
       "norm_label": "file structure"
     },
     {
@@ -1130,7 +1290,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_1_add_graphify_ignore_file",
-      "community": 7,
+      "community": 10,
       "norm_label": "task 1: add graphify ignore file"
     },
     {
@@ -1140,7 +1300,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_2_document_the_rule",
-      "community": 7,
+      "community": 10,
       "norm_label": "task 2: document the rule"
     },
     {
@@ -1150,7 +1310,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "docs_superpowers_plans_2026_07_04_graphify_exclusions_task_3_rebuild_and_verify_graph",
-      "community": 7,
+      "community": 10,
       "norm_label": "task 3: rebuild and verify graph"
     },
     {
@@ -1779,7 +1939,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "AGENTS.md",
-      "source_location": "L24",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_documentation_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "agents_agent_rules",
+      "target": "agents_frontend_fsd_and_sass_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "agents_agent_rules",
       "target": "agents_graphify",
@@ -1789,7 +1969,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "AGENTS.md",
-      "source_location": "L19",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "agents_agent_rules",
       "target": "agents_priority",
@@ -2149,7 +2329,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/frontend.md",
-      "source_location": "L9",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "docs_architecture_frontend_frontend_architecture",
       "target": "docs_architecture_frontend_development_methodology",
@@ -2159,10 +2339,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/frontend.md",
-      "source_location": "L25",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_fsd_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "docs_architecture_frontend_frontend_architecture",
       "target": "docs_architecture_frontend_practical_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/frontend.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_architecture_frontend_frontend_architecture",
+      "target": "docs_architecture_frontend_sass_modules_styles_module_scss",
       "confidence_score": 1.0
     },
     {
@@ -2173,6 +2373,56 @@
       "weight": 1.0,
       "source": "docs_architecture_frontend_frontend_architecture",
       "target": "docs_architecture_frontend_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_1_add_project_wide_context7_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_2_add_frontend_context7_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-context7-documentation-rule.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_context7_documentation_rule_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_context7_documentation_rule_task_3_refresh_knowledge_graph",
       "confidence_score": 1.0
     },
     {
@@ -2213,6 +2463,56 @@
       "weight": 1.0,
       "source": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_frontend_ffd_documentation_implementation_plan",
       "target": "docs_superpowers_plans_2026_07_04_frontend_ffd_documentation_task_2_refresh_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_1_update_frontend_documentation_with_fsd_and_styles_module_scss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_2_update_agent_rules_with_fsd_and_sass_modules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-07-04-frontend-fsd-styling-rules.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_frontend_fsd_styling_rules_implementation_plan",
+      "target": "docs_superpowers_plans_2026_07_04_frontend_fsd_styling_rules_task_3_refresh_knowledge_graph",
       "confidence_score": 1.0
     },
     {
@@ -2347,5 +2647,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "64237f470b31529190d1bd1b23e21515b34fe3ed"
+  "built_at_commit": "12bf46a5cf041722fe3620432636dd5426b33ef0"
 }

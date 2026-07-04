@@ -16,6 +16,19 @@ These rules apply to all work in this repository.
 - For testing and browser-based verification, use the `@browser` plugin when it is available.
 - If `@browser` is unavailable, state that clearly and use the best available local verification method.
 
+## Frontend: FSD And Sass Modules
+
+- Use FSD architecture for frontend code.
+- Use Sass with CSS Modules for component styles.
+- Component style files must be named `styles.module.scss` and colocated next to the related `.tsx` component.
+- Import component styles as `import s from "./styles.module.scss"`.
+
+## Documentation Sources
+
+- Use Context7 to fetch current documentation for libraries, frameworks, APIs, SDKs, CLI tools, and project tooling.
+- Prefer Context7 documentation before relying on model memory or generic web search for technical documentation.
+- When Context7 does not have the needed documentation, state that clearly and use the best available primary source.
+
 ## Priority
 
 - Direct user instructions take priority over this file.
