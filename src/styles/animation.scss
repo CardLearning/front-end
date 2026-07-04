@@ -1,0 +1,84 @@
+$duration-fast: 160ms;
+$duration-base: 220ms;
+$duration-slow: 320ms;
+$easing-standard: cubic-bezier(0.2, 0, 0, 1);
+
+@mixin transition($properties...) {
+  transition-duration: $duration-base;
+  transition-property: $properties;
+  transition-timing-function: $easing-standard;
+}
+
+@mixin motion-safe {
+  @media (prefers-reduced-motion: no-preference) {
+    @content;
+  }
+}
+
+@mixin fade-in {
+  animation: fade-in $duration-base $easing-standard both;
+}
+
+@mixin drawer-slide-left {
+  animation: drawer-slide-left $duration-slow $easing-standard both;
+}
+
+@mixin drawer-slide-right {
+  animation: drawer-slide-right $duration-slow $easing-standard both;
+}
+
+@mixin card-reveal {
+  animation: card-reveal $duration-base $easing-standard both;
+}
+
+@mixin loader-spin {
+  animation: loader-spin 720ms linear infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes drawer-slide-left {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes drawer-slide-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes card-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes loader-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}

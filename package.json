@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:static": "next build",
+    "test:design-system": "node --test tests/design-system.test.mjs",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write ./src"

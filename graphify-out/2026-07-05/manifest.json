@@ -10,18 +10,23 @@
     "semantic_hash": ""
   },
   "next.config.ts": {
-    "mtime": 1783204247.3684819,
-    "ast_hash": "053126ee9de48fec3ee1ff1fd5d6ba85",
+    "mtime": 1783191593.4507835,
+    "ast_hash": "1faa2afee103e8daa8f3c0e9dcf8f143",
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1783202367.2306983,
-    "ast_hash": "8896640a5373280889ceb4949389a9fe",
+    "mtime": 1783191593.4522865,
+    "ast_hash": "94f7789e8f4a2382d7d0f0eb53e9d95d",
     "semantic_hash": ""
   },
   "src/app/layout.tsx": {
-    "mtime": 1783202477.5493336,
-    "ast_hash": "b4b4a6784b4c76ad557a8c0e429808eb",
+    "mtime": 1783191593.4552836,
+    "ast_hash": "087c65ba7328eafe17b7c4b4ab571820",
+    "semantic_hash": ""
+  },
+  "src/app/page.tsx": {
+    "mtime": 1783191593.4562833,
+    "ast_hash": "93b89c74f791ed88a956d39ddf373be0",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -120,83 +125,8 @@
     "semantic_hash": ""
   },
   "docs/superpowers/plans/2026-07-05-design-system-app-shell.md": {
-    "mtime": 1783204730.2284174,
-    "ast_hash": "dd260a7846f2e01ff07332227d265bea",
-    "semantic_hash": ""
-  },
-  "src/app/(main)/layout.tsx": {
-    "mtime": 1783202691.0267901,
-    "ast_hash": "78f63ba327dae5b76b98ba602172971a",
-    "semantic_hash": ""
-  },
-  "src/app/(main)/page.tsx": {
-    "mtime": 1783202691.02729,
-    "ast_hash": "eeaa64e2390e5ba09242379db2a7297f",
-    "semantic_hash": ""
-  },
-  "src/app/(main)/progress/page.tsx": {
-    "mtime": 1783202691.028791,
-    "ast_hash": "94cb9d2faa8b2fa494d67198d839f0c0",
-    "semantic_hash": ""
-  },
-  "src/app/(main)/settings/page.tsx": {
-    "mtime": 1783202691.0302901,
-    "ast_hash": "9f84c720554e6d709362308a87ef55e0",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/button/Button.tsx": {
-    "mtime": 1783202572.9983175,
-    "ast_hash": "8f03be59aefcf37866af6be5acd21e42",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/button/index.ts": {
-    "mtime": 1783202572.9998167,
-    "ast_hash": "488c6157393ec235b7004c68013f6fe0",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/card/Card.tsx": {
-    "mtime": 1783202573.0028186,
-    "ast_hash": "d73abffccfe3784530aedf9076531477",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/card/index.ts": {
-    "mtime": 1783202573.0043192,
-    "ast_hash": "8767737544504ec6e7fecc75d26032e0",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/drawer/Drawer.tsx": {
-    "mtime": 1783202745.4433618,
-    "ast_hash": "07dbce0c6de298a085a3bb3aa60824b6",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/drawer/index.ts": {
-    "mtime": 1783202573.0018208,
-    "ast_hash": "705ed66f67bcb4994e98e9c50e19dee0",
-    "semantic_hash": ""
-  },
-  "src/shared/components/ui/index.ts": {
-    "mtime": 1783204019.39481,
-    "ast_hash": "b0e72670ce82333804be393d066a4830",
-    "semantic_hash": ""
-  },
-  "src/shared/config/navigation.ts": {
-    "mtime": 1783202691.0232916,
-    "ast_hash": "2dc3b1b4845f4db1d0b63ac32ec8adb2",
-    "semantic_hash": ""
-  },
-  "src/widgets/app-shell/AppShell.tsx": {
-    "mtime": 1783202691.0247903,
-    "ast_hash": "32c86d4d8d97702ceedf2b459bec1fa0",
-    "semantic_hash": ""
-  },
-  "src/widgets/app-shell/index.ts": {
-    "mtime": 1783202691.0257916,
-    "ast_hash": "ba5946ef43315f949e663ccd9a388629",
-    "semantic_hash": ""
-  },
-  "tests/design-system.test.mjs": {
-    "mtime": 1783203974.5583372,
-    "ast_hash": "d2ee7af7371f90db8d1bb2eacaf0d4d6",
+    "mtime": 1783202328.8433619,
+    "ast_hash": "bbb8dffc756cbc2c38af5b3440a292ac",
     "semantic_hash": ""
   }
 }

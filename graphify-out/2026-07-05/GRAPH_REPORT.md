@@ -1,13 +1,18 @@
 # Graph Report - front-end  (2026-07-05)
 
 ## Corpus Check
-- 32 files · ~7,678 words
+- 18 files · ~6,538 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 190 nodes · 185 edges · 24 communities (21 shown, 3 thin omitted)
+- 146 nodes · 129 edges · 20 communities (17 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `31ad9141`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_compilerOptions|compilerOptions]]
@@ -28,15 +33,13 @@
 - [[_COMMUNITY_layout.tsx|layout.tsx]]
 - [[_COMMUNITY_eslint.config.mjs|eslint.config.mjs]]
 - [[_COMMUNITY_next.config.ts|next.config.ts]]
-- [[_COMMUNITY_page.tsx|page.tsx]]
 - [[_COMMUNITY_Основные пользовательские сценарии|Основные пользовательские сценарии]]
-- [[_COMMUNITY_Drawer.tsx|Drawer.tsx]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
 2. `Card Learning: обзор проекта` - 12 edges
-3. `scripts` - 8 edges
-4. `Graphify Knowledge Base Implementation Plan` - 8 edges
+3. `Graphify Knowledge Base Implementation Plan` - 8 edges
+4. `scripts` - 7 edges
 5. `Agent Rules` - 7 edges
 6. `Дополнительный функционал после MVP` - 7 edges
 7. `Frontend Architecture` - 6 edges
@@ -50,19 +53,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (24 total, 3 thin omitted)
+## Communities (20 total, 3 thin omitted)
 
 ### Community 0 - "compilerOptions"
 Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
 ### Community 1 - "Card Learning: обзор проекта"
-Cohesion: 0.10
-Nodes (19): Card Learning: обзор проекта, Frontend-стек, Базовый функционал MVP, Для кого приложение, Использование чужого набора, Краткое описание, Методология разработки frontend, Наборы карточек (+11 more)
+Cohesion: 0.13
+Nodes (14): Card Learning: обзор проекта, Frontend-стек, Базовый функционал MVP, Для кого приложение, Краткое описание, Методология разработки frontend, Наборы карточек, Обучение по карточкам (+6 more)
 
 ### Community 2 - "scripts"
-Cohesion: 0.12
-Nodes (15): dependencies, next, react, react-dom, name, private, scripts, build (+7 more)
+Cohesion: 0.13
+Nodes (14): dependencies, next, react, react-dom, name, private, scripts, build (+6 more)
 
 ### Community 3 - "devDependencies"
 Cohesion: 0.14
@@ -112,37 +115,29 @@ Nodes (3): API Contracts, Contract Requirements, Contract Workflow
 Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
-### Community 18 - "page.tsx"
-Cohesion: 0.17
-Nodes (9): cards, Button(), ButtonProps, ButtonVariant, cx(), Card(), CardProps, CardTone (+1 more)
-
 ### Community 19 - "Основные пользовательские сценарии"
-Cohesion: 0.21
-Nodes (8): NavigationItem, navigationItems, AppShell(), AppShellProps, cx(), isActivePath(), NavigationLinks(), normalizePath()
-
-### Community 20 - "Drawer.tsx"
-Cohesion: 0.38
-Nodes (5): cx(), Drawer(), DrawerProps, DrawerSide, DrawerTriggerProps
+Cohesion: 0.40
+Nodes (5): Использование чужого набора, Обучающий подход, Основные пользовательские сценарии, Повторение материала, Создание набора
 
 ## Knowledge Gaps
-- **122 isolated node(s):** `eslintConfig`, `projectRoot`, `nextConfig`, `name`, `version` (+117 more)
+- **109 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+104 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Card Learning: обзор проекта` connect `Card Learning: обзор проекта` to `Основные пользовательские сценарии`, `Дополнительный функционал после MVP`?**
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `devDependencies` to `scripts`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `Card Learning: обзор проекта` connect `Card Learning: обзор проекта` to `Дополнительный функционал после MVP`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **What connects `eslintConfig`, `projectRoot`, `nextConfig` to the rest of the system?**
-  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
+  _109 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `compilerOptions` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Card Learning: обзор проекта` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `scripts` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `devDependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

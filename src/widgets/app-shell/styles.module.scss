@@ -1,0 +1,284 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  background:
+    linear-gradient(135deg, rgba(255, 201, 96, 0.24), transparent 34%),
+    var(--color-surface-muted);
+}
+
+.mobileHeader {
+  display: none;
+}
+
+.shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 920px);
+  min-height: calc(100vh - 80px);
+  max-width: 1180px;
+  margin: 0 auto;
+  border-radius: 36px;
+  box-shadow: var(--shadow-panel);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px;
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+  border-radius: 36px 0 0 36px;
+  --nav-color: rgba(252, 252, 255, 0.72);
+  --nav-active-bg: var(--color-surface);
+  --nav-active-color: var(--color-secondary);
+}
+
+.brand {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  @include text-title-1(700);
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+.logoMark {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--color-on-primary);
+  background: rgba(252, 252, 255, 0.14);
+  @include text-default(700);
+}
+
+.brandName {
+  overflow-wrap: anywhere;
+}
+
+.sidebarNav {
+  margin-top: 72px;
+}
+
+.navList {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navLink {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 14px;
+  color: var(--nav-color);
+  border-radius: 999px;
+  @include text-default(700);
+  @include transition(background-color, color, transform);
+
+  &[data-active='true'] {
+    color: var(--nav-active-color);
+    background: var(--nav-active-bg);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+.navIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  color: currentcolor;
+}
+
+.homeIcon {
+  border: 2px solid currentcolor;
+  border-radius: 6px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    background: currentcolor;
+    border-radius: 999px;
+  }
+
+  &::before {
+    top: 2px;
+    bottom: 2px;
+    left: 6px;
+    width: 2px;
+  }
+
+  &::after {
+    right: 2px;
+    bottom: 6px;
+    left: 2px;
+    height: 2px;
+  }
+}
+
+.progressIcon {
+  &::before,
+  &::after {
+    position: absolute;
+    bottom: 1px;
+    width: 4px;
+    content: "";
+    background: currentcolor;
+    border-radius: 999px;
+  }
+
+  &::before {
+    left: 2px;
+    height: 9px;
+  }
+
+  &::after {
+    left: 12px;
+    height: 16px;
+  }
+}
+
+.settingsIcon {
+  border: 2px solid currentcolor;
+  border-radius: 999px;
+
+  &::before {
+    position: absolute;
+    inset: 4px;
+    content: "";
+    border: 2px solid currentcolor;
+    border-radius: 999px;
+  }
+}
+
+.content {
+  min-width: 0;
+  padding: 56px;
+  background: var(--color-surface);
+  border-radius: 0 36px 36px 0;
+}
+
+.menuTrigger {
+  width: 48px;
+  min-height: 48px;
+  padding: 0;
+}
+
+.menuIcon {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 14px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    content: "";
+    background: currentcolor;
+    border-radius: 999px;
+  }
+
+  &::before {
+    top: 1px;
+    box-shadow: 0 6px 0 currentcolor;
+  }
+
+  &::after {
+    bottom: 1px;
+  }
+}
+
+.drawerPanel {
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+  --color-text: var(--color-on-primary);
+  --color-surface: var(--color-primary);
+  --color-surface-muted: rgba(252, 252, 255, 0.14);
+  --nav-color: rgba(252, 252, 255, 0.74);
+  --nav-active-bg: var(--color-surface-strong);
+  --nav-active-color: var(--color-secondary);
+}
+
+.drawerNav {
+  margin-top: 12px;
+}
+
+@include hover-supported {
+  .navLink:hover {
+    color: var(--nav-active-color);
+    background: var(--nav-active-bg);
+    transform: translateX(2px);
+  }
+}
+
+@include mobile {
+  .app {
+    padding: 16px;
+  }
+
+  .mobileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    color: var(--color-text);
+  }
+
+  .mobileHeader .logoMark {
+    background: var(--color-primary);
+  }
+
+  .shell {
+    display: block;
+    min-height: calc(100vh - 96px);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    min-height: calc(100vh - 96px);
+    padding: 28px 20px;
+    border-radius: var(--radius-lg);
+  }
+}
+
+@include tablet {
+  .app {
+    padding: 24px;
+  }
+
+  .shell {
+    grid-template-columns: 220px minmax(0, 1fr);
+    min-height: calc(100vh - 48px);
+  }
+
+  .sidebar {
+    padding: 28px 16px;
+  }
+
+  .content {
+    padding: 40px;
+  }
+}

@@ -1,0 +1,96 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  @include text-default(700);
+  @include transition(background-color, border-color, color, box-shadow, transform);
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.72;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.primary {
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+}
+
+.secondary {
+  color: var(--color-on-primary);
+  background: var(--color-secondary);
+}
+
+.success {
+  color: var(--color-on-primary);
+  background: var(--color-success);
+}
+
+.ghost {
+  color: var(--color-primary);
+  background: transparent;
+  border-color: var(--color-primary-light);
+}
+
+.light {
+  color: var(--color-text);
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+.content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.loading .content {
+  opacity: 0;
+}
+
+.loader {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 2px solid currentcolor;
+  border-top-color: transparent;
+  border-radius: 999px;
+  @include loader-spin;
+}
+
+@include hover-supported {
+  .button:not(:disabled):hover {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px rgba(99, 96, 255, 0.18);
+  }
+
+  .secondary:not(:disabled):hover {
+    box-shadow: 0 12px 24px rgba(255, 129, 129, 0.18);
+  }
+
+  .success:not(:disabled):hover {
+    box-shadow: 0 12px 24px rgba(125, 197, 121, 0.2);
+  }
+
+  .ghost:not(:disabled):hover,
+  .light:not(:disabled):hover {
+    background: var(--color-primary-light);
+    box-shadow: none;
+  }
+}

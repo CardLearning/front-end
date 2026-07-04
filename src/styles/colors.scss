@@ -1,0 +1,63 @@
+@use "sass:map";
+
+$light-theme: (
+  "surface": #fcfcff,
+  "surface-muted": #f1f1fa,
+  "surface-strong": #ffffff,
+  "text": #161719,
+  "text-muted": #91919f,
+  "border": #e6e6ff,
+);
+
+$dark-theme: (
+  "surface": #161719,
+  "surface-muted": #212325,
+  "surface-strong": #292b2d,
+  "text": #f3f3f8,
+  "text-muted": #91919f,
+  "border": rgba(243, 243, 248, 0.18),
+);
+
+:root,
+[data-theme='light'] {
+  --color-primary: #6360ff;
+  --color-secondary: #ff8181;
+  --color-success: #7dc579;
+  --color-warning: #ffc960;
+  --color-error: #ff6d9f;
+
+  --color-primary-light: #e6e6ff;
+  --color-secondary-light: #ffe9e9;
+  --color-success-light: #e1ffdf;
+  --color-warning-light: #fff1db;
+  --color-error-light: #ffedf3;
+
+  --color-surface: #{map.get($light-theme, "surface")};
+  --color-surface-muted: #{map.get($light-theme, "surface-muted")};
+  --color-surface-strong: #{map.get($light-theme, "surface-strong")};
+  --color-text: #{map.get($light-theme, "text")};
+  --color-text-muted: #{map.get($light-theme, "text-muted")};
+  --color-border: #{map.get($light-theme, "border")};
+  --color-on-primary: #fcfcff;
+}
+
+[data-theme='dark'] {
+  --color-surface: #{map.get($dark-theme, "surface")};
+  --color-surface-muted: #{map.get($dark-theme, "surface-muted")};
+  --color-surface-strong: #{map.get($dark-theme, "surface-strong")};
+  --color-text: #{map.get($dark-theme, "text")};
+  --color-text-muted: #{map.get($dark-theme, "text-muted")};
+  --color-border: #{map.get($dark-theme, "border")};
+  --color-on-primary: #fcfcff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-surface: #{map.get($dark-theme, "surface")};
+    --color-surface-muted: #{map.get($dark-theme, "surface-muted")};
+    --color-surface-strong: #{map.get($dark-theme, "surface-strong")};
+    --color-text: #{map.get($dark-theme, "text")};
+    --color-text-muted: #{map.get($dark-theme, "text-muted")};
+    --color-border: #{map.get($dark-theme, "border")};
+  }
+}
