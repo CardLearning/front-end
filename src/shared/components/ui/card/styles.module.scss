@@ -1,0 +1,86 @@
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.question {
+  display: flex;
+  width: 100%;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  color: var(--color-text);
+  text-align: left;
+  cursor: pointer;
+  background: transparent;
+  @include text-title-1(700);
+  @include transition(background-color);
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+.answer {
+  padding: 20px 20px 40px;
+  color: var(--color-text-muted);
+  @include text-default(400);
+  @include card-reveal;
+}
+
+.indicator {
+  position: relative;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--card-accent);
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    width: 12px;
+    height: 2px;
+    content: "";
+    background: var(--color-on-primary);
+    border-radius: 999px;
+    @include transition(transform);
+  }
+
+  &::after {
+    transform: rotate(90deg);
+  }
+}
+
+.question[aria-expanded='true'] .indicator::after {
+  transform: rotate(0deg);
+}
+
+.primary {
+  --card-accent: var(--color-primary);
+}
+
+.secondary {
+  --card-accent: var(--color-secondary);
+}
+
+.success {
+  --card-accent: var(--color-success);
+}
+
+.warning {
+  --card-accent: var(--color-warning);
+}
+
+@include hover-supported {
+  .question:hover {
+    background: var(--color-surface-muted);
+  }
+}

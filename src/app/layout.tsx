@@ -1,10 +1,18 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import { DM_Sans } from 'next/font/google'
+
+import '../styles/global.scss'
 
 export const metadata: Metadata = {
-  title: 'Learning Card',
+  title: 'LearningCard',
   description: 'Frontend for the Card Learning application',
 }
+
+const dmSans = DM_Sans({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '700'],
+  variable: '--font-dm-sans',
+})
 
 export default function RootLayout({
   children,
@@ -13,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={dmSans.variable}>{children}</body>
     </html>
   )
 }
